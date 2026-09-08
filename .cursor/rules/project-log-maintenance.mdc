@@ -1,0 +1,12 @@
+---
+description: Maintain the repository project log at material work boundaries
+alwaysApply: true
+---
+
+# Project log maintenance
+
+- Before work, read `PROJECT_LOG.md` (or the linked canonical equivalent) and the current repository reference.
+- At material boundaries, update the local log and affected status/profile/checklist, then route a sanitized central History update through the owner when History is open.
+- Record event time, observation time, component/change, reason, result/verification, source reference, next action, and unresolved/removed/deferred work.
+- Never record secrets, credentials, raw infrastructure output, private cross-project backlinks, or inferred test/deploy success.
+- Do not create per-tool-call entries, recursive log-only commits, forced rewrites, or unrelated feature/service/database/deployment changes.
